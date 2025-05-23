@@ -1,0 +1,46 @@
+	div{
+		width: 80%;
+		background-color: #121524;
+		margin: auto;
+        border-radius: 20px;
+        border: dotted whitesmoke;
+        text-align: center;
+	}
+    body{
+        background-color: #cee0f4;
+        color: #f5f0e9;
+    }
+    h1{
+     font-family: 'Roboto Slab', serif; 
+     background-color: #c0c9db;  
+     color: #121524;
+    }
+    p{
+     font-family: 'Exo 2', sans-serif;  
+     text-align: justify; 
+    }
+    h2{
+     font-family: 'Share Tech Mono', monospace;  
+     background-color: #193060; 
+     color: #e0c58f;
+     border-radius: 20px 70px;
+     
+    }
+    footer{
+        background-color: #384c65c4;
+        text-align: center;
+    }
+    .formula{
+        width: 20%;
+        border: solid #E0C58F;
+        background-color: #3C507D;
+        color: #D9CBC2;
+        margin-bottom: 10px;
+    }
+    .imagen{
+        display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    }

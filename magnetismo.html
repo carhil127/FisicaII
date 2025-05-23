@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnetismo</title>
+    <link rel="stylesheet" type="text/css" href="magnetismo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto+Slab&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+</head>
+<body>
+<div>
+<h1>Temas de Magnetismo</h1>
+
+<section>
+  <h2> Campo Magnético</h2>
+  <img src="lineasdecampo.png" alt="Lineas De Campo Magnetico" class="imagen">
+  <p>El campo magnético es una región del espacio donde se ejercen fuerzas magnéticas sobre cargas eléctricas en movimiento. Estas fuerzas son el resultado de la interacción con partículas cargadas o imanes. El campo magnético se representa por el vector <strong>\( \vec{B} \)</strong> y su unidad en el Sistema Internacional es el tesla (T).</p>
+  <p>Visualmente, se representa mediante líneas de campo que van del polo norte al sur de un imán. Cuanto más juntas están estas líneas, mayor es la intensidad del campo.</p>
+</section>
+
+<section>
+  <h2> Fuerza Magnética</h2>
+  <img src="fuerzaMagnetica.jpg" alt="Fuerza Magnetica" class="imagen">
+  <p>Una carga eléctrica en movimiento dentro de un campo magnético experimenta una fuerza conocida como fuerza de Lorentz, la cual es perpendicular tanto a la velocidad de la partícula como al campo:</p>
+  <div class="formula">\( \vec{F} = q \vec{v} \times \vec{B} \)</div>
+  <p>Donde:</p>
+  <ul>
+    <li>\( q \) es la carga eléctrica</li>
+    <li>\( \vec{v} \) es el vector velocidad</li>
+    <li>\( \vec{B} \) es el campo magnético</li>
+  </ul>
+  <p>Esta fuerza no modifica la energía cinética de la partícula, solo cambia su dirección.</p>
+</section>
+
+<section>
+  <h2> Movimiento de Partículas Cargadas</h2>
+  <img src="movimientoParticulas.jpg" alt="Movimiento De Particulas" class="imagen">
+  <p>Cuando una partícula con carga entra perpendicularmente a un campo magnético uniforme, describe una trayectoria circular, ya que la fuerza magnética actúa como fuerza centrípeta. El radio de esta trayectoria es:</p>
+  <div class="formula">\( r = \frac{mv}{qB} \)</div>
+  <p>Este tipo de movimiento es clave en dispositivos como los ciclotrones y en el confinamiento de plasma.</p>
+</section>
+
+<section>
+  <h2> Fuerza sobre un Conductor</h2>
+  <img src="fuerzaConductor.png" alt="Fuerza sobre un conductor" class="imagen">
+  <p>Cuando un conductor recto transporta corriente y se encuentra dentro de un campo magnético, se genera una fuerza sobre él. Esta fuerza es el resultado del efecto acumulado de la fuerza magnética sobre cada electrón en movimiento dentro del conductor:</p>
+  <div class="formula">\( \vec{F} = I \vec{L} \times \vec{B} \)</div>
+  <p>Es el principio de funcionamiento de los motores eléctricos.</p>
+</section>
+
+<section>
+  <h2> Momento de Torsión sobre un Lazo</h2>
+  <img src="torcion.jpg" class="imagen">
+  <p>Un lazo de corriente en un campo magnético experimenta un par de torsión que tiende a alinear el lazo con el campo. Esto es importante en galvanómetros y motores:</p>
+  <div class="formula">\( \vec{\tau} = \vec{\mu} \times \vec{B} \)</div>
+  <p>Donde el momento magnético \( \vec{\mu} = I A \hat{n} \) y \( A \) es el área del lazo.</p>
+</section>
+
+<section>
+  <h2> Ley de Biot-Savart</h2>
+  <img src="biot'savart.jpg" class="imagen">
+  <p>Permite calcular el campo magnético generado por un segmento de corriente. Es fundamental para obtener el campo magnético en cualquier punto debido a distribuciones de corriente:</p>
+  <div class="formula">\( d\vec{B} = \frac{\mu_0}{4\pi} \frac{I d\vec{l} \times \hat{r}}{r^2} \)</div>
+  <p>Aplicada frecuentemente en espiras, solenoides y líneas infinitas.</p>
+</section>
+
+<section>
+  <h2> Fuerzas entre Conductores</h2>
+  <img src="Fuerzaconductores.png" class="imagen">
+  <p>Dos cables paralelos con corriente generan campos magnéticos que interactúan entre sí. Si la corriente va en el mismo sentido, se atraen; si va en sentido contrario, se repelen:</p>
+  <div class="formula">\( \frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d} \)</div>
+</section>
+
+<section>
+  <h2> Ley de Ampère</h2>
+  <img src="ampare.jpg" class="imagen"> <br>
+  <p>Relaciona el campo magnético alrededor de un camino cerrado con la corriente total encerrada:</p>
+  <div class="formula">\( \oint \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{enc}} \)</div>
+  <p>Es especialmente útil en geometrías simétricas como cables rectos y solenoides largos.</p>
+</section>
+
+<section>
+  <h2> Ley de Faraday</h2>
+  <img src="faraday.jpg" class="imagen"><br>
+  <p>Describe cómo una variación del flujo magnético en el tiempo induce una fuerza electromotriz (fem) en un circuito:</p>
+  <div class="formula">\( \varepsilon = -\frac{d\Phi_B}{dt} \)</div>
+  <p>Es el principio detrás de los generadores eléctricos y transformadores.</p>
+</section>
+
+<section>
+  <h2> Ley de Lenz</h2>
+  <p>Complementa la Ley de Faraday indicando que la corriente inducida se genera en el sentido que se opone al cambio de flujo que la originó. Garantiza la conservación de la energía:</p>
+  <div class="formula">\( \varepsilon = -\frac{d\Phi_B}{dt} \)</div>
+</section>
+</div>
+<footer>
+    Arleth Gevara Mar - 185222 ; Carhil Chayito Rodriguez Cisneros - 184352
+</footer>
+</body>
+</html>
+
